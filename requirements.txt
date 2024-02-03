@@ -1,0 +1,8 @@
+rembg
+streamlit
+altair
+PIL
+requests
+io
+textblob
+deep_translator
