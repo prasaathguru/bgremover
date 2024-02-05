@@ -1,4 +1,5 @@
 rembg
+pandas
 streamlit
 altair
 Pillow
