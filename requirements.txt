@@ -1,7 +1,7 @@
 rembg
 streamlit
 altair
-PIL
+Pillow
 requests
 io
 textblob
