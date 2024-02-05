@@ -4,6 +4,4 @@ streamlit
 altair
 Pillow
 requests
-io
 textblob
-deep_translator
