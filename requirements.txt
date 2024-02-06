@@ -1,7 +1,4 @@
 rembg
-pandas
 streamlit
 altair
 Pillow
-requests
-textblob
