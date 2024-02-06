@@ -12,14 +12,15 @@ def removebg(img):
 
 def main():
     st.title("GURU PRASAATH NEW APP")
-    st.sidebar.header("Choose an image")
-    uploaded_file =st.sidebar.file_uploader("",type=["jpg","png"])
+    st.header("Choose an image")
+    uploaded_file =st.file_uploader("",type=["jpg","png"])
 
     if uploaded_file is not None:
         st.image(uploaded_file)
         st.write("Processing.....")
         result = removebg(uploaded_file)
         st.image(result)
+        st.write("You can download the Image..")
 
 
 if __name__ == "__main__":
